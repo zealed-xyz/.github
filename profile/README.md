@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg" alt="Zealed — Earn privately. Only you can open it." width="100%" />
+<img src="./banner.svg" alt="Zealed — Approved by them. Opened by you." width="100%" />
 
 <br /><br />
 
@@ -14,13 +14,13 @@
 
 ### 👋 Welcome to Zealed
 
-We're building **private mission rewards**.
+We're building **private mission rewards**: complete event missions and choose a gift card, eSIM, testnet Zcash or custom prize. Reward codes are sealed to your browser.
 
 Events and sponsors want to reward people for showing up and taking part, but today every reward funnel turns participants into a data trail: emails, wallets, purchases and redemption codes all sitting in someone's database. **Zealed** is our answer: an organizer funds a campaign, participants complete a mission, an AI agent picks a perk they can actually use, the sponsor pays for that exact purchase with a **shielded Zcash** payment, and **Bitrefill** delivers it. The code is sealed to the participant's browser key the moment it arrives, so Zealed's database, logs and AI never hold it in readable form.
 
 Built on **Zcash** (NU7 testnet, ZIP-321, zkool watch-only) and **Bitrefill** (REST API v2) at the **Free Society Hack 2026** in Mumbai, for the Privacy and Agentic Commerce tracks. Everything below is open source and runs on testnet today.
 
-> *Earn privately. Only you can open it.*
+> *A little knowledge. A useful reward. Approved by them. Opened by you.*
 
 ### ⭐️ Our Projects
 
@@ -66,7 +66,7 @@ Built on **Zcash** (NU7 testnet, ZIP-321, zkool watch-only) and **Bitrefill** (R
                                  Bitrefill API v2 ──▶ gift card / eSIM
 ```
 
-**Per-reward flow:** the participant completes the mission → the backend verifies the answers → the agent picks one perk from the campaign's allowlist → the sponsor approves and pays a ZIP-321 shielded request → the watch-only watcher sees the payment and matches it to the order → Bitrefill fulfills → the code is sealed to the participant's public key and stored in IndexedDB, so only their browser can open it.
+**Per-reward flow** (*Mission → Match → Receive*): the participant completes a short learning mission from their sponsor and the mission → the backend verifies the answers → the agent compares the allowed packages with the participant's needs and the sponsor's budget, and picks one → the sponsor approves and pays a ZIP-321 shielded request → the watch-only watcher sees the payment and matches it to the order → Bitrefill fulfills → the code is sealed to the participant's public key and stored in IndexedDB, so only their browser can open it.
 
 ### 🎯 What Makes Zealed Different
 
@@ -111,7 +111,7 @@ Run locally:   git clone https://github.com/zealed-xyz/zealed && cd zealed
 Testnet TAZ:   https://fauzec.com
 ```
 
-Open an invite as a participant, complete the mission, and watch your reward arrive sealed to your browser.
+Open your invitation link or scan your sponsor's QR code. Keep it private: whoever claims it first reserves the reward. Delivery is encrypted for your browser, and your activation details stay sealed until you reveal them.
 
 ### 🤝 Contributing
 
@@ -138,18 +138,18 @@ We welcome PRs, bug reports and design feedback.
 > **Start here:** open the [live app][website-link] → create a campaign with a mission and up to 5 perks → share the invite QR → complete the mission as a participant → pay the shielded request → open the code that only your browser can read.
 
 [website-link]: https://tryzealed.xyz
-[website-shield]: https://img.shields.io/badge/website-tryzealed.xyz-F4B728?labelColor=07080B&style=flat-square&logo=safari&logoColor=white
+[website-shield]: https://img.shields.io/badge/website-tryzealed.xyz-f4b728?labelColor=111111&style=flat-square&logo=safari&logoColor=white
 
 [github-link]: https://github.com/zealed-xyz
-[github-star]: https://img.shields.io/github/stars/zealed-xyz?color=F4B728&labelColor=07080B&style=flat-square&logo=github
+[github-star]: https://img.shields.io/github/stars/zealed-xyz?color=f4b728&labelColor=111111&style=flat-square&logo=github
 
 [zcash-link]: https://z.cash
-[zcash-shield]: https://img.shields.io/badge/built%20on-Zcash-F4B728?labelColor=07080B&style=flat-square&logo=zcash&logoColor=white
+[zcash-shield]: https://img.shields.io/badge/built%20on-Zcash-f4b728?labelColor=111111&style=flat-square&logo=zcash&logoColor=white
 
 [bitrefill-link]: https://docs.bitrefill.com
-[bitrefill-shield]: https://img.shields.io/badge/Bitrefill-API%20v2-F4B728?labelColor=07080B&style=flat-square
+[bitrefill-shield]: https://img.shields.io/badge/Bitrefill-API%20v2-f4b728?labelColor=111111&style=flat-square
 
-[license-shield]: https://img.shields.io/badge/license-MIT-F4B728?labelColor=07080B&style=flat-square
+[license-shield]: https://img.shields.io/badge/license-MIT-f4b728?labelColor=111111&style=flat-square
 [license-link]: https://github.com/zealed-xyz/zealed/blob/main/LICENSE
 
 [zealed-github]: https://github.com/zealed-xyz/zealed
@@ -160,4 +160,4 @@ We welcome PRs, bug reports and design feedback.
 [explorer-link]: https://testnet.zcashexplorer.app/
 [faucet-link]: https://fauzec.com/
 
-[lang-typescript]: https://img.shields.io/badge/typescript-F4B728?labelColor=07080B&style=flat-square&logo=typescript&logoColor=white
+[lang-typescript]: https://img.shields.io/badge/typescript-f4b728?labelColor=111111&style=flat-square&logo=typescript&logoColor=white
