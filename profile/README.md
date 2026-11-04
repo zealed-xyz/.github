@@ -66,7 +66,7 @@ Built on **Zcash** (NU7 testnet, ZIP-321, zkool watch-only) and **Bitrefill** (R
                                  Bitrefill API v2 ──▶ gift card / eSIM
 ```
 
-**Per-reward flow** (*Mission → Match → Receive*): the participant completes a short learning mission from their sponsor and the mission → the backend verifies the answers → the agent compares the allowed packages with the participant's needs and the sponsor's budget, and picks one → the sponsor approves and pays a ZIP-321 shielded request → the watch-only watcher sees the payment and matches it to the order → Bitrefill fulfills → the code is sealed to the participant's public key and stored in IndexedDB, so only their browser can open it.
+**Per-reward flow** (*Mission → Match → Receive*): the participant completes a short learning mission from their sponsor → the backend verifies the answers → the agent compares the allowed packages with the participant's needs and the sponsor's budget, and picks one → the sponsor approves and pays a ZIP-321 shielded request → the watch-only watcher sees the payment and matches it to the order → Bitrefill fulfills → the code is sealed to the participant's public key and stored in IndexedDB, so only their browser can open it.
 
 ### 🎯 What Makes Zealed Different
 
