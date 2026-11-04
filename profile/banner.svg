@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+<rect width="1280" height="320" fill="#07080B"/>
+<rect x="0" y="312" width="1280" height="8" fill="#F4B728"/>
+<g transform="translate(140,160)" fill="none" stroke="#F4B728" stroke-width="10"><rect x="-55" y="-20" width="110" height="80" rx="12"/><path d="M-32,-20 v-25 a32,32 0 0 1 64,0 v25"/><circle cx="0" cy="18" r="10" fill="#F4B728"/></g>
+<text x="250" y="165" font-family="Helvetica,Arial,sans-serif" font-size="96" font-weight="700" fill="#FFFFFF">Zealed</text>
+<text x="254" y="225" font-family="Helvetica,Arial,sans-serif" font-size="36" fill="#F4B728">Earn privately. Only you can open it.</text>
+<text x="254" y="270" font-family="Helvetica,Arial,sans-serif" font-size="22" fill="#8A8F98">Private mission rewards · Zcash shielded payments · Bitrefill fulfillment</text>
+</svg>
