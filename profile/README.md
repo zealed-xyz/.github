@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg" alt="Zealed — Approved by them. Opened by you." width="100%" />
+<img src="./banner-v2.svg" alt="Zealed — Approved by them. Opened by you." width="100%" />
 
 <br /><br />
 
